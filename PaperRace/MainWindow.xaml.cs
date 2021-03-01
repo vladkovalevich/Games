@@ -103,8 +103,8 @@ namespace PaperRace
             // Земля на карте = слой 0
             var earth = new Image()
             {
-                Width = 800,
-                Height = 800,
+                Width = 1000,
+                Height = 1000,
                 Source = new BitmapImage(new Uri("/Images/earth.jpg", UriKind.Relative))
             };
             Panel.SetZIndex(earth, 0);
